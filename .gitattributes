@@ -1,0 +1,5 @@
+# 强制 LF，保证 SKILL.md 的 frontmatter 在任何平台都能被正确解析
+* text=auto eol=lf
+*.png binary
+*.zip binary
+*.jpg binary
