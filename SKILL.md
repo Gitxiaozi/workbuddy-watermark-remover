@@ -1,12 +1,12 @@
 ---
 name: workbuddy-watermark-remover
 description: 去除 WorkBuddy/ImageGen 生成图右下角固定的「AI生成 WORKBUDDY」角标。当用户说「去水印」「去掉右下角那个角标」「把 AI生成 的标去掉」「图片上有 WORKBUDDY 水印帮我弄掉」「批量清理生成图的角标」「watermark removal」时使用。只针对位置尺寸固定的平台角标，采用已知 alpha 反混合擦除，画布尺寸不变、原图不动。
-version: 1.0.0
+version: 1.0.1
 display_name: WorkBuddy 去水印
 display_name_en: WorkBuddy Watermark Remover
 description_zh: 去除 WorkBuddy/ImageGen 生成图右下角固定的「AI生成 WORKBUDDY」角标。当用户说「去水印」「去掉右下角那个角标」「把 AI生成 的标去掉」「图片上有 WORKBUDDY 水印帮我弄掉」「批量清理生成图的角标」时使用。只针对位置尺寸固定的平台角标，采用已知 alpha 反混合擦除，画布尺寸不变、原图不动。
 description_en: Remove the fixed "AI-generated / WORKBUDDY" badge stamped in the bottom-right corner of WorkBuddy / ImageGen outputs. Use when the user asks to remove watermarks, erase the corner badge, clean the WORKBUDDY mark, or batch-clean generated images. Uses known-alpha unmixing, so the canvas size never changes and the original file is never modified. Only applies to fixed-position platform badges.
-author: 郭强
+author: Git小子
 agent_created: true
 ---
 
